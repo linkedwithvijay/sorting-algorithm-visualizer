@@ -6,9 +6,7 @@ A visualizer that demonstrates various sorting algorithms in action, helping use
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Features
 - Interactive visualizations of sorting algorithms.
