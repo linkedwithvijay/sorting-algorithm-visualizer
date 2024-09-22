@@ -12,11 +12,13 @@ A visualizer that demonstrates various sorting algorithms in action, helping use
 
 ## Features
 - Interactive visualizations of sorting algorithms.
+- Random Array Generator
 - Supports multiple algorithms: 
   - Bubble Sort
   - Quick Sort
   - Merge Sort
-  - [Add any other algorithms you implement]
+  - Selection Sort
+  - Insertion Sort
 - Option to customize input data for better understanding.
 
 ## Technologies Used
