@@ -27,4 +27,4 @@ A visualizer that demonstrates various sorting algorithms in action, helping use
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/sorting-algorithm-visualizer.git
+   git clone https://github.com/linkedwithvijay/sorting-algorithm-visualizer.git
