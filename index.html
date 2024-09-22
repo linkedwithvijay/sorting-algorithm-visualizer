@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Visualizer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>#Ge{
+        margin: 10px;
+        padding: 12px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 8px;
+        color: #fff;
+        background: linear-gradient(to right, #ff0000, #b30000);
+        box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+    }</style>
+</head>
+<body>
+    <h1>Sorting Algorithm Visualizer</h1>
+
+    <div id="array-container" class="array-container"></div>
+
+    <div class="controls">
+        <div> <button onclick="generateArray()" id="Ge">Generate Array</button></div>
+        <div>
+           
+            <button onclick="bubbleSort()">Bubble Sort</button>
+            <button onclick="insertionSort()">Insertion Sort</button>
+            <button onclick="selectionSort()">Selection Sort</button>
+            <button onclick="mergeSort()">Merge Sort</button>
+            <button onclick="quickSort()">Quick Sort</button>
+        </div>
+        <div>
+            <label for="array-size">Array Size:</label>
+            <input type="range" id="array-size" min="5" max="100" value="50" onchange="generateArray()">
+        </div>
+        <div>
+            <label for="speed-slider">Speed:</label>
+            <input type="range" id="speed-slider" min="1" max="1000" value="100">
+            <span id="speed-value">100</span> ms
+        </div>
+        <div>
+            <label for="custom-input">Custom Input:</label>
+            <input type="text" id="custom-input" placeholder="Enter numbers separated by commas">
+            <button onclick="addCustomElements()" id="Ge">Add to Array</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
